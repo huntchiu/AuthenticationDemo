@@ -1,0 +1,6 @@
+@AuthenticationDemo_HostAddress = http://localhost:5296
+
+GET {{AuthenticationDemo_HostAddress}}/api/user/current
+Accept: application/json
+
+###
